@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>陈鑫的简历</title>
+    <link rel="icon" href="images/home.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/home.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <style>
+        /*html,body{
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #example1{
+            height: 100%;
+        }*/
+
+        .pdfobject-container {
+            /*height: 500px;*/
+        }
+
+        .pdfobject {
+            /*border: 1px solid #666;*/
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="example1"></div>
+
+<script type="text/javascript" src="scripts/pdfobject.min.js"></script>
+<script>
+    //			PDFObject.embed("pdf/Java.pdf", "#example1",{page: "20"});
+    PDFObject.embed("files/简历.pdf");
+</script>
+
+</body>
+
+</html>
